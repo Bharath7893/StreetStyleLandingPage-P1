@@ -1,0 +1,144 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+  
+}
+.container{
+    height: 100vh;
+}
+
+/* ---Navbar--- */
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.list{
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+}
+.list-item{
+    margin-left: 40px;
+    font-family: 'Orbitron', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    font-display: swap;
+}
+.home{
+    font-weight: 900;
+}
+.button-group{
+    display: flex;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+.search-icon{
+    margin-right: 10px;
+}
+.nav-button{
+    padding: 5px 40px;
+    background-color: transparent;
+    font-family: 'Poppins';
+    font-style: normal;
+    border: 2px solid;
+    font-weight: 500;
+    border-radius: 6px;
+}
+
+/* ---main content--- */
+
+.hero-container{
+    display: flex;
+}
+.hero-container-left{
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.hero-img{
+    position: relative;
+}
+.square{
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 80px;
+}
+
+/* ---right container--- */
+.gs{
+    display: flex;
+    gap: 450px;
+    margin-top: 30px;
+}
+.globe{
+    margin-left: 100px;
+}
+.star{
+    margin-top: 20px;
+    
+} 
+
+.hero-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+
+}
+.hero-heading h1{
+    font-size: 60px;
+    font-family: 'Orbitron', sans-serif;
+    margin: 40px 20px;
+}
+.hero-heading p{
+    margin: 0px 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.btns{
+    display: flex;
+    margin: 40px 0px;
+    gap: 10px;
+}
+.button-email{
+    padding: 6px 40px;
+    border-radius: 10px;
+    border: 2px solid;
+    font-size: 20px;
+    font-weight: 600;
+    background-color:transparent;
+}
+.button-join{
+    padding: 8px 30px;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    background-color:#000000;
+}
+.icons{
+    display: flex;
+    gap: 180px;
+}
+
+.final{
+    margin-right: 150px;
+}
+
+.final h4{
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
